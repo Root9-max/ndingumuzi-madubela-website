@@ -42,7 +42,7 @@ nav {
     color: #FAF8F4;
     background-image: url("../assets/images/profile.jpeg");
     background-size: cover;
-    background-position: center 50%;
+    background-position: center 70%;
 }
 .hero-background::before {
     content: "";
