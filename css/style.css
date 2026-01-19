@@ -35,21 +35,38 @@ nav {
 }
 
 
-.hero {
-    padding: 2rem;
-    background-color: #E6D3B1;
+.hero-background {
+    position: relative;
+    padding: 4rem 2rem;
     text-align: center;
+    color: #FAF8F4;
+    background-image: url("../assets/images/profile.jpeg");
+    background-size: cover;
+    background-position: center 50%;
 }
+.hero-background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-background > * {
+    position: relative;
+    z-index: 1;
+}
+
 
 .cta {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
     background-color: #C9A24D;
     color: #2B2B2B;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 4px;
 }
+
 
 .intro,
 .services-preview {
@@ -93,5 +110,11 @@ footer {
     header, footer {
         text-align: center;
     }
+}
+.profile-image {
+    margin-top: 1.5rem;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 50%;
 }
 
