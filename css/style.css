@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAF8F4;
+    color: #2B2B2B;
+}
+
+header {
+    background-color: #5A3E2B;
+    color: #FAF8F4;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #FAF8F4;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 2rem;
+    background-color: #E6D3B1;
+    text-align: center;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #C9A24D;
+    color: #2B2B2B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro,
+.services-preview {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #5A3E2B;
+    color: #FAF8F4;
+    text-align: center;
+    padding: 1rem;
+}
+.services {
+    padding: 2rem;
+}
+
+.service-item {
+    background-color: #E6D3B1;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+}
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+.about {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
