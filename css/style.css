@@ -28,6 +28,12 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
 
 .hero {
     padding: 2rem;
@@ -75,3 +81,17 @@ footer {
     max-width: 800px;
     margin: 0 auto;
 }
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 1.5rem;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+}
+
