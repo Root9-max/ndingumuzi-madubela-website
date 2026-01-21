@@ -91,8 +91,11 @@ footer {
 }
 .contact {
     padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
     text-align: center;
 }
+
 .about {
     padding: 2rem;
     max-width: 800px;
@@ -116,5 +119,11 @@ footer {
     max-width: 200px;
     width: 100%;
     border-radius: 50%;
+}
+.contact-info {
+    margin-top: 2rem;
+    background-color: #E6D3B1;
+    padding: 1.5rem;
+    border-radius: 4px;
 }
 
